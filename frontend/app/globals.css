@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        /* Institutional Color System */
+        --bg-primary: #0E1117;
+        --bg-card: #161B22;
+        --border-default: #2A2F3A;
+        --text-primary: #E6EDF3;
+        --text-secondary: #9BA3AF;
+
+        /* Accent Colors */
+        --accent-buy: #2DD4BF;
+        --accent-watch: #FACC15;
+        --accent-avoid: #F87171;
+        --accent-confidence: #60A5FA;
+    }
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro', 'Roboto', sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
