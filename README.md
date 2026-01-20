@@ -1,5 +1,4 @@
-# StockMind AI - Streamlit Cloud Deployment
-
+# StockMind AI 
 Professional AI-driven stock recommendation system with:
 - Swing trading signals (US + India markets)
 - Intraday trading setups (NSE)
