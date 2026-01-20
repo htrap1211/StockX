@@ -9,8 +9,6 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 import yfinance as yf
-import os
-import joblib
 
 # Page config
 st.set_page_config(
